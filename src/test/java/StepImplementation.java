@@ -36,8 +36,12 @@ public class StepImplementation {
         TraductorPage traductorPage = new TraductorPage(driver);
         String result = traductorPage.translatedWord();
         Gauge.captureScreenshot();
+
         if (result.equalsIgnoreCase(wortExpected)){
-            System.out.println("eso");
+            System.out.println("ok, resultado validado");
+            
+        }else{
+            System.out.println("no se ubico el texto");
         }
     }
 
