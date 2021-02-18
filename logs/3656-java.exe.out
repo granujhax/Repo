@@ -1,0 +1,29 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 10532milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 10532"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 59674"}
+{"logLevel":"info","message":"Listening on port:59674"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation1' and 'StepImplementation.implementation1'"}
+{"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation2' and 'StepImplementation.implementation2'"}
+{"logLevel":"debug","message":"Found Enter hello {} in the field to translate in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation4' and 'StepImplementation.implementation4'"}
+{"logLevel":"debug","message":"Found See hola {} as the translated word in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tEnter hello {} in the field to translate : public void implementation2(String word)"}
+{"logLevel":"debug","message":"\tNavigate to {} : public void implementation1(String url)"}
+{"logLevel":"debug","message":"\tSee hola {} as the translated word : public void implementation4(String wortExpected)"}
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 41943
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1613608866.923][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
+feb 17, 2021 6:41:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class StepImplementation.implementation1"}
+{"logLevel":"debug","message":"Executing 'Enter hello {} in the field to translate' using 'class StepImplementation.implementation2"}
+{"logLevel":"debug","message":"Executing 'See hola {} as the translated word' using 'class StepImplementation.implementation4"}

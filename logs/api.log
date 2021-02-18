@@ -1,0 +1,71 @@
+17-02-2021 11:45:15.863 [Gauge] [INFO] Watching directory: C:\Users\Granuja\Desktop\certificacionReto\GaugeTranslater\specs
+17-02-2021 11:45:16.721 [Gauge] [DEBUG] Found 1 files
+17-02-2021 11:45:17.660 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+17-02-2021 11:45:18.377 [Gauge] [INFO] Initializing specs cache with 1 specs
+17-02-2021 11:45:18.377 [Gauge] [DEBUG] Adding specs from C:\Users\Granuja\Desktop\certificacionReto\GaugeTranslater\specs\example.spec
+17-02-2021 11:45:18.377 [Gauge] [INFO] Initializing steps cache with 1 steps
+17-02-2021 11:45:18.377 [Gauge] [INFO] Gauge daemon initialized and listening on port: 53401
+17-02-2021 11:52:01.482 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Navigate to <url>"}
+17-02-2021 11:52:01.891 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Navigate to {}"  parameterizedStepValue:"Navigate to <url>"  parameters:"url"}}
+17-02-2021 11:52:02.169 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter hello <hello> in the field to translate"}
+17-02-2021 11:52:02.169 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter hello {} in the field to translate"  parameterizedStepValue:"Enter hello <hello> in the field to translate"  parameters:"hello"}}
+17-02-2021 11:52:05.453 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Navigate to \"https://translate.google.com/?hl=es\""}
+17-02-2021 11:52:05.453 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Navigate to {}"  parameterizedStepValue:"Navigate to <https://translate.google.com/?hl=es>"  parameters:"https://translate.google.com/?hl=es"}}
+17-02-2021 11:52:05.454 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter hello \"hello\" in the field to translate"}
+17-02-2021 11:52:05.454 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter hello {} in the field to translate"  parameterizedStepValue:"Enter hello <hello> in the field to translate"  parameters:"hello"}}
+17-02-2021 11:52:05.454 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"See hola \"Hola\" as the translated word"}
+17-02-2021 11:52:05.454 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"See hola {} as the translated word"  parameterizedStepValue:"See hola <Hola> as the translated word"  parameters:"Hola"}}
+17-02-2021 11:52:06.517 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"See hola <wortExpected> as the translated word"}
+17-02-2021 11:52:06.518 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"See hola {} as the translated word"  parameterizedStepValue:"See hola <wortExpected> as the translated word"  parameters:"wortExpected"}}
+17-02-2021 14:44:04.662 [Gauge] [INFO] Spec file added / modified: C:\Users\Granuja\Desktop\certificacionReto\GaugeTranslater\specs\example.spec
+17-02-2021 14:44:07.556 [Gauge] [INFO] Spec file added / modified: C:\Users\Granuja\Desktop\certificacionReto\GaugeTranslater\specs\example.spec
+17-02-2021 14:44:07.559 [Gauge] [INFO] Spec file added / modified: C:\Users\Granuja\Desktop\certificacionReto\GaugeTranslater\specs\example.spec
+17-02-2021 14:44:07.559 [Gauge] [INFO] Spec file added / modified: C:\Users\Granuja\Desktop\certificacionReto\GaugeTranslater\specs\example.spec
+17-02-2021 17:17:26.785 [Gauge] [INFO] Watching directory: C:\Users\Granuja\Desktop\certificacionReto\GaugeTranslater\specs
+17-02-2021 17:17:27.328 [Gauge] [DEBUG] Found 1 files
+17-02-2021 17:17:28.612 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+17-02-2021 17:17:29.607 [Gauge] [INFO] Initializing specs cache with 1 specs
+17-02-2021 17:17:29.607 [Gauge] [DEBUG] Adding specs from C:\Users\Granuja\Desktop\certificacionReto\GaugeTranslater\specs\example.spec
+17-02-2021 17:17:29.607 [Gauge] [INFO] Initializing steps cache with 1 steps
+17-02-2021 17:17:29.630 [Gauge] [INFO] Gauge daemon initialized and listening on port: 56718
+17-02-2021 18:47:43.482 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"See hola '<wortExpected>' as the translated word"}
+17-02-2021 18:47:43.550 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"See hola '{}' as the translated word"  parameterizedStepValue:"See hola '<wortExpected>' as the translated word"  parameters:"wortExpected"}}
+17-02-2021 18:47:47.821 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"See hola '<wortExpected?>' as the translated word"}
+17-02-2021 18:47:47.830 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"See hola '{}' as the translated word"  parameterizedStepValue:"See hola '<wortExpected?>' as the translated word"  parameters:"wortExpected?"}}
+17-02-2021 18:47:51.630 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"See hola '<wortExpected$>' as the translated word"}
+17-02-2021 18:47:51.630 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"See hola '{}' as the translated word"  parameterizedStepValue:"See hola '<wortExpected$>' as the translated word"  parameters:"wortExpected$"}}
+17-02-2021 18:49:54.133 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"See hola (.*) as the translated word"}
+17-02-2021 18:49:54.139 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"See hola (.*) as the translated word"  parameterizedStepValue:"See hola (.*) as the translated word"}}
+17-02-2021 18:51:50.566 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"See hola  as the translated word"}
+17-02-2021 18:51:50.578 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"See hola  as the translated word"  parameterizedStepValue:"See hola  as the translated word"}}
+17-02-2021 18:51:53.235 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"See hola wor as the translated word"}
+17-02-2021 18:51:53.235 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"See hola wor as the translated word"  parameterizedStepValue:"See hola wor as the translated word"}}
+17-02-2021 18:51:54.175 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"See hola wort as the translated word"}
+17-02-2021 18:51:54.175 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"See hola wort as the translated word"  parameterizedStepValue:"See hola wort as the translated word"}}
+17-02-2021 18:51:57.071 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"See hola wortExpect as the translated word"}
+17-02-2021 18:51:57.075 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"See hola wortExpect as the translated word"  parameterizedStepValue:"See hola wortExpect as the translated word"}}
+17-02-2021 18:51:59.029 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"See hola wortExpect> as the translated word"}
+17-02-2021 18:51:59.029 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"See hola wortExpect> as the translated word"  parameterizedStepValue:"See hola wortExpect> as the translated word"}}
+17-02-2021 18:52:03.132 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"See hola <wortExpect> as the translated word"}
+17-02-2021 18:52:03.132 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"See hola {} as the translated word"  parameterizedStepValue:"See hola <wortExpect> as the translated word"  parameters:"wortExpect"}}
+17-02-2021 19:24:43.990 [Gauge] [INFO] Closing connection [127.0.0.1:56721] cause: read tcp 127.0.0.1:56718->127.0.0.1:56721: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+17-02-2021 19:24:48.425 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 7616 has terminated.
+17-02-2021 19:29:27.964 [Gauge] [INFO] Watching directory: C:\Users\Granuja\Desktop\certificacionReto\GaugeTranslater\specs
+17-02-2021 19:29:27.964 [Gauge] [DEBUG] Found 1 files
+17-02-2021 19:29:28.344 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+17-02-2021 19:29:28.677 [Gauge] [INFO] Initializing specs cache with 1 specs
+17-02-2021 19:29:28.677 [Gauge] [DEBUG] Adding specs from C:\Users\Granuja\Desktop\certificacionReto\GaugeTranslater\specs\example.spec
+17-02-2021 19:29:28.698 [Gauge] [INFO] Initializing steps cache with 1 steps
+17-02-2021 19:29:28.698 [Gauge] [INFO] Gauge daemon initialized and listening on port: 62002
+17-02-2021 19:30:46.779 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Navigate to <url>"}
+17-02-2021 19:30:46.831 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Navigate to {}"  parameterizedStepValue:"Navigate to <url>"  parameters:"url"}}
+17-02-2021 19:30:47.428 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter hello <hello> in the field to translate"}
+17-02-2021 19:30:47.431 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter hello {} in the field to translate"  parameterizedStepValue:"Enter hello <hello> in the field to translate"  parameters:"hello"}}
+17-02-2021 19:30:47.604 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"See hola <wortExpected> as the translated word"}
+17-02-2021 19:30:47.605 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"See hola {} as the translated word"  parameterizedStepValue:"See hola <wortExpected> as the translated word"  parameters:"wortExpected"}}
+17-02-2021 19:30:48.466 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Navigate to \"https://translate.google.com/?hl=es\""}
+17-02-2021 19:30:48.471 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Navigate to {}"  parameterizedStepValue:"Navigate to <https://translate.google.com/?hl=es>"  parameters:"https://translate.google.com/?hl=es"}}
+17-02-2021 19:30:48.745 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter hello \"hello\" in the field to translate"}
+17-02-2021 19:30:48.745 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter hello {} in the field to translate"  parameterizedStepValue:"Enter hello <hello> in the field to translate"  parameters:"hello"}}
+17-02-2021 19:30:48.746 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"See hola \"Hola\" as the translated word"}
+17-02-2021 19:30:48.746 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"See hola {} as the translated word"  parameterizedStepValue:"See hola <Hola> as the translated word"  parameters:"Hola"}}
